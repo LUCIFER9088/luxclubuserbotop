@@ -65,7 +65,7 @@ async def startupmessage():
                 BOTLOG_CHATID,
                 "https://telegra.ph/file/698a0a9060789f095897c.jpg",
                 caption="**Your LuxBot has been started successfully, Now Gib Party Kiddo.**",
-                buttons=[(Button.url("Support", "https://t.me/LUXCLUB_SERGIO),)],
+                buttons=[(Button.url("Support", "https://t.me/LUXCLUB_SERGIO"),)],
             )
     except Exception as e:
         LOGS.error(e)
