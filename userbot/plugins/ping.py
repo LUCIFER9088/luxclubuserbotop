@@ -29,13 +29,13 @@ async def _(event):
         end = datetime.now()
         tms = (end - start).microseconds / 1000
         ms = round((tms - 0.6) / 3, 3)
-        await lionevent.edit(f"**☞ Average Pong!**\n♥︎ {ms} ms")
+        await lionevent.edit(f"**✯ Average Pong!**\n✯ {ms} ms")
     else:
-        lionevent = await edit_or_reply(event, "<b><i>☞ Pong!</b></i>", "html")
+        lionevent = await edit_or_reply(event, "<b><i>⍟ Pong!</b></i>", "html")
         end = datetime.now()
         ms = (end - start).microseconds / 1000
         await lionevent.edit(
-            f"<b><i>☞ Pong</b></i>\n♥︎ {ms} <b><i>ms\n♥︎ Bot of {hmention}</b></i>",
+            f"<b>𝔏𝔢𝔱 𝔗𝔥𝔢 𝔊𝔞𝔪𝔢 𝔅𝔢𝔤𝔦𝔫!!\n⍟ 𝔓𝔦𝔫𝔤 `{ms}` 𝔪𝔰\n𝔐𝔞𝔰𝔱𝔢𝔯 {hmention}</b>",
             parse_mode="html",
         )
 
