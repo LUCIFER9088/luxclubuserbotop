@@ -6,7 +6,7 @@ logging.basicConfig(
     format="[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s", level=logging.INFO
 )
 # Starting bot
-system("git clone https://github.com/hustlerabhay/luxclubuserbotop && cd LionX && python3 -m userbot")
+system("git clone https://github.com/hustlerabhay/luxclubuserbotop && cd luxclubuserbotop && python3 -m userbot")
 # if got error
 print(" sᴏʀʀʏ ᴜɴғᴏʀᴛᴜɴᴀᴛᴇʟʏ ʏᴏᴜ ʜᴀᴠᴇ ɢᴏᴛ ᴇʀʀᴏʀ ᴘʟᴇᴀsᴇ ʀᴇᴘᴏʀᴛ ɪᴛ ᴀᴛ @LUXCLUB_SERGIO")
 # Script written for stop heroku suspension
