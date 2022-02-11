@@ -63,7 +63,7 @@ async def startupmessage():
         if BOTLOG:
             Config.LIONUBLOGO = await lionub.tgbot.send_file(
                 BOTLOG_CHATID,
-                "https://telegra.ph/file/698a0a9060789f095897c.jpg",
+                "https://telegra.ph/file/d01bc3a1b9398d62136e2.jpg",
                 caption="**Your LuxBot has been started successfully, Now Gib Party Kiddo.**",
                 buttons=[(Button.url("Support", "https://t.me/LUXCLUB_SERGIO"),)],
             )
